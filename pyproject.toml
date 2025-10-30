@@ -2,4 +2,12 @@
 name = "reflex-adk-test"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi>=0.120.2",
+    "google-adk>=1.17.0",
+    "google-cloud-logging>=3.12.1",
+    "langchain-community>=0.4.1",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.38.0",
+    "wikipedia>=1.4.0",
+]
